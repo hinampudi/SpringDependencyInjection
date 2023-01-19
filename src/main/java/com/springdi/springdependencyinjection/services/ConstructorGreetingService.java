@@ -1,8 +1,7 @@
 package com.springdi.springdependencyinjection.services;
 
 import org.springframework.stereotype.Service;
-
-@Service
+//@Service - We are declaring it using config file.
 public class ConstructorGreetingService implements GreetingService {
     @Override
     public String sayGreeting() {

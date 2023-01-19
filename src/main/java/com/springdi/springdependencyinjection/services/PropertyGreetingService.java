@@ -2,7 +2,6 @@ package com.springdi.springdependencyinjection.services;
 
 import org.springframework.stereotype.Service;
 
-@Service
 public class PropertyGreetingService implements GreetingService{
 
     @Override
