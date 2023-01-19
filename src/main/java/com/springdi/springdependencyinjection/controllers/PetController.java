@@ -1,8 +1,6 @@
 package com.springdi.springdependencyinjection.controllers;
 
-import com.springdi.springdependencyinjection.services.PetService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import com.springframework.pets.PetService;
 import org.springframework.stereotype.Controller;
 
 @Controller
