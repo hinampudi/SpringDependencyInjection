@@ -1,2 +1,8 @@
-package com.springdi.springdependencyinjection.repositories;public class EnglishGreetingRepositoryImpl {
+package com.springdi.springdependencyinjection.repositories;
+
+public class EnglishGreetingRepositoryImpl implements EnglishGreetingRepository {
+    @Override
+    public String getGreeting() {
+        return "Hello World ---English";
+    }
 }

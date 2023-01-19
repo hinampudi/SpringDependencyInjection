@@ -1,2 +1,6 @@
-package com.springdi.springdependencyinjection.repositories;public interface EnglishGreetingRepository {
+package com.springdi.springdependencyinjection.repositories;
+
+public interface EnglishGreetingRepository {
+
+    String getGreeting();
 }
